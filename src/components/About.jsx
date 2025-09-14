@@ -3,6 +3,7 @@ import aboutimg from '../assets/about.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import arrow_icon from '../assets/arrow_icon.svg'
+import { Link } from 'react-scroll'
 
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
     })
   }, [])
   return (
-    <div id='about' className='w-full h-auto flex flex-col items-center justify-between lg:px-[80px] py-[60px] px-[20px] gap-[60px]'>
+    <div id='about' className='w-full h-auto flex flex-col items-center justify-between lg:px-[80px] lg:py-[80px] py-[65px] px-[20px] gap-[60px]'>
       <div id='top-box' className='w-full flex lg:flex-row flex-col items-center justify-between gap-[40px]'>
         <div data-aos="zoom-in" data-aos-delay="100" className='lg:w-[60%] w-full flex flex-col justify-center items-start gap-[10px]'>
           <h1 className='text-themegreen uppercase text-md font-medium font-poppins'>Who We Are</h1>
@@ -23,10 +24,10 @@ const About = () => {
           <p className='text-gray-500 text-sm font-poppins'>From strategy to execution, we craft digital solutions that move your business forward.</p>
         </div>
         <div data-aos="zoom-in" data-aos-delay="150" className='lg:w-[40%] w-full flex lg:justify-end justify-start items-center'>
-          <button className='bg-themegreen hover:bg-black/70 hover:text-white py-2 px-6 text-black text-md font-semibold rounded-md flex items-center gap-2'>
+          <Link to='projects' className='bg-themegreen hover:bg-black hover:text-white py-2 px-6 text-black text-md font-semibold rounded-md flex items-center gap-2'>
             LEARN MORE
             <img className='w-4' src={arrow_icon} alt="" />
-          </button>
+          </Link>
         </div>
       </div>
 

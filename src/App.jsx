@@ -6,8 +6,8 @@ import Offer from './components/Offer'
 import Portfolio from './components/Portfolio'
 import Reviews from './components/Reviews'
 import Cta from './components/Cta'
-import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Header from './components/Header'
 
 const App = () => {
   const dotRef = useRef(null)
@@ -44,7 +44,7 @@ const App = () => {
 
   return (
     <>
-      <Navbar />
+      <Header />
       <Hero />
       <About />
       <Clients />

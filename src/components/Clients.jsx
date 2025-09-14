@@ -22,10 +22,14 @@ const Clients = () => {
   }, [])
 
   return (
-    <div className="w-full h-auto flex flex-col items-center justify-center lg:px-[80px] px-[20px] lg:py-[80px] py-[60px] gap-[60px] bg-cover bg-center" style={{backgroundImage: `url(${backgroundImage})`}}>
-      <div data-aos="zoom-in" data-aos-delay="50" className='bg-white rounded-full px-10 py-3 font-semibold flex lg:flex-row flex-col justify-center items-center lg:gap-2 gap-1'>
-        <img src={group_profile} alt="" />
-        <p className='text-xs font-medium'>Trusted by 10k people</p>
+    <div className="w-full h-auto flex flex-col items-center justify-center lg:px-[80px] px-[20px] lg:py-[80px] py-[60px] gap-[60px] bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div
+        data-aos="zoom-in"
+        data-aos-delay="50"
+        className="bg-white rounded-full px-10 py-3 font-semibold flex lg:flex-row flex-col justify-center items-center lg:gap-2 gap-1"
+      >
+        <img src={group_profile} alt="" className="h-6 lg:h-10" />
+        <p className="text-xs font-medium">Trusted by 10k people</p>
       </div>
 
       <div className='w-full grid lg:grid-cols-4 grid-cols-2 gap-4'>
