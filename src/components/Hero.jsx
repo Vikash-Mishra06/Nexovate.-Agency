@@ -21,7 +21,7 @@ const Hero = () => {
         <h1 data-aos="zoom-in" data-aos-delay="100" className='text-white lg:text-[70px] text-[40px] capitalize font-poppins leading-[1.2em]'>Transforming ideas into Digital Success</h1>
         <p data-aos="zoom-in" data-aos-delay="150" className='text-gray-300 text-md font-poppins'>Creating meaningful connections and turning big ideas into interactive digital experiences.</p>
         <div className='lg:w-[40%] w-full flex lg:flex-row  justify-start items-center'>
-          <button className='bg-themegreen hover:bg-black hover:text-white py-2 px-6 text-black text-md font-semibold rounded-md flex items-center gap-2'>
+          <button data-aos="zoom-in" data-aos-delay="100" className='bg-themegreen hover:bg-black hover:text-white py-2 px-6 text-black text-md font-semibold rounded-md flex items-center gap-2'>
             EXPLORE SOLUTIONS
             <img className='w-4' src={arrow_icon} alt="" />
           </button>
