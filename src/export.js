@@ -28,23 +28,23 @@ export const services = [
 export const projects = [
   {
     img: project1,
-    title: 'Cloud Migration for TechCorp',
-    para: 'Augue purus malesuada pulvinar faucibus vel id hac. Sed duis sit vitae platea nulla nunc egestas pellentesque et.',
+    title: 'Project Advertising',
+    para: 'We turn bold ideas into powerful digital solutions that connect, engage.',
   },
   {
     img: project2,
-    title: 'Cloud Migration for TechCorp',
-    para: 'Augue purus malesuada pulvinar faucibus vel id hac. Sed duis sit vitae platea nulla nunc egestas pellentesque et.',
+    title: 'Content marketing',
+    para: 'We help you execute your plan and deliver results.',
   },
   {
     img: project3,
-    title: 'Cloud Migration for TechCorp',
-    para: 'Augue purus malesuada pulvinar faucibus vel id hac. Sed duis sit vitae platea nulla nunc egestas pellentesque et.',
+    title: 'Content Writing',
+    para: 'We you create a marketing strategy that drives results.',
   },
   {
     img: project4,
-    title: 'Cloud Migration for TechCorp',
-    para: 'Augue purus malesuada pulvinar faucibus vel id hac. Sed duis sit vitae platea nulla nunc egestas pellentesque et.',
+    title: 'Social media',
+    para: 'We turn bold ideas into powerful digital solutions that connect, engage.',
   },
 ]
 

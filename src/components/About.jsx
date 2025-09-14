@@ -23,7 +23,7 @@ const About = () => {
           <p className='text-gray-500 text-sm font-poppins'>From strategy to execution, we craft digital solutions that move your business forward.</p>
         </div>
         <div data-aos="zoom-in" data-aos-delay="150" className='lg:w-[40%] w-full flex lg:justify-end justify-start items-center'>
-          <button className='bg-themegreen hover:bg-black hover:text-white py-2 px-6 text-black text-md font-semibold rounded-md flex items-center gap-2'>
+          <button className='bg-themegreen hover:bg-black/70 hover:text-white py-2 px-6 text-black text-md font-semibold rounded-md flex items-center gap-2'>
             LEARN MORE
             <img className='w-4' src={arrow_icon} alt="" />
           </button>

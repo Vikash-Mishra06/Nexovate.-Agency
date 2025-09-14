@@ -36,7 +36,7 @@ const Offer = () => {
               <service.icon className='size-[35px] mb-5' />
               <h1 className='text-black text-[25px] capitalize font-poppins'>{service.title}</h1>
               <p className='text-gray-500 text-sm font-poppins'>{service.para}</p>
-              <button className='text-themegreen uppercase font-medium font-poppins hover:text-black pt-5'>Learn More</button>
+              <button className='text-themegreen uppercase font-medium font-poppins hover:text-black/70 pt-5'>Learn More</button>
             </div>
           ))}
         </div>
